@@ -78,7 +78,7 @@
 
   /* ---------- inline belief quotes ---------- */
   .belief-quote{
-    margin:30px 0;padding:4px 0 4px 18px;border-left:2px solid var(--crosta);
+    margin:22px 0;padding:3px 0 3px 18px;border-left:2px solid var(--crosta);
     font-family:var(--body);font-weight:300;font-size:15.5px;line-height:1.6;color:var(--ink-soft);
   }
   .belief-quote cite{
@@ -103,7 +103,7 @@
   .btn-nav:focus-visible{outline:2px solid var(--capri);outline-offset:3px}
 
   /* ---------- headline block ---------- */
-  .headline{padding:56px 0 34px}
+  .headline{padding:40px 0 26px}
   .eyebrow{
     font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;
     color:var(--ink-soft);display:flex;align-items:center;gap:14px;margin:0 0 20px;
@@ -125,27 +125,27 @@
   .media img{transition:transform .5s ease}
   figcaption{
     font-family:var(--mono);font-size:11px;letter-spacing:.05em;color:var(--ink-soft);
-    padding:10px 0 40px;max-width:640px;margin:0 auto;
+    padding:8px 0 22px;max-width:640px;margin:0 auto;
   }
   .hero-figure{margin:0 0 8px}
 
   /* ---------- article ---------- */
-  article{padding:8px 0 10px}
-  article p{margin:0 0 20px;font-size:17.5px;line-height:1.75;color:var(--ink)}
-  article p.tight{margin-bottom:6px}
+  article{padding:4px 0 6px}
+  article p{margin:0 0 16px;font-size:17.5px;line-height:1.7;color:var(--ink)}
+  article p.tight{margin-bottom:5px}
   article b{font-weight:500;color:var(--ink)}
   .lede p{font-size:18.5px}
 
   .ask{
     font-family:var(--display);font-weight:400;color:var(--capri);
-    font-size:clamp(22px,3.2vw,29px);line-height:1.35;margin:44px 0 46px;
-    padding:32px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+    font-size:clamp(22px,3.2vw,29px);line-height:1.35;margin:32px 0 34px;
+    padding:24px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
   }
 
   /* ---------- review card ---------- */
   .review{
     background:var(--white);box-shadow:inset 0 0 0 1px var(--rule);
-    padding:30px 32px;margin:32px 0;
+    padding:26px 28px;margin:24px 0;
   }
   .review .head{display:flex;align-items:center;gap:14px;margin-bottom:16px}
   .review .avatar{
@@ -182,21 +182,22 @@
   .review .ratings b{font-weight:500;color:var(--capri)}
 
   /* ---------- proof sections ---------- */
-  .proof{padding:64px 0 8px}
-  .proof-tag{
-    display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:11px;
-    letter-spacing:.12em;text-transform:uppercase;color:var(--capri);
-    border:1px solid var(--capri);padding:6px 12px;border-radius:1px;margin-bottom:22px;
+  .proof{padding:46px 0 4px}
+  .proof-marker{display:flex;align-items:center;gap:16px;margin-bottom:18px}
+  .proof-marker .num{
+    font-family:var(--display);font-weight:400;font-size:38px;line-height:1;color:var(--pomodoro);
   }
-  .proof-tag b{font-weight:500}
-  .proof-tag span{color:var(--ink-soft);font-weight:400}
+  .proof-marker .cat{
+    font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--ink-soft);padding-left:16px;border-left:1px solid var(--rule);
+  }
   h2.proof-title{
     font-family:var(--display);font-weight:400;color:var(--ink);
-    font-size:clamp(23px,3.4vw,32px);line-height:1.28;margin:0 0 26px;max-width:18ch;
+    font-size:clamp(23px,3.4vw,32px);line-height:1.28;margin:0 0 22px;max-width:18ch;
   }
 
   /* ---------- mid-article reservation nudges ---------- */
-  .mid-cta{margin:68px 0}
+  .mid-cta{margin:44px 0}
   .mid-cta-band{background:var(--capri);color:var(--white)}
   .mid-cta-band .inner{
     padding:36px 0;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;
@@ -232,8 +233,12 @@
   .btn-outline:focus-visible{outline:2px solid var(--capri);outline-offset:3px}
 
   /* ---------- close ---------- */
-  .close{background:var(--capri);color:var(--white);padding:74px 0}
-  .close .wrap{max-width:680px}
+  .close{background:var(--capri);color:var(--white);padding:56px 0}
+  .close .wrap{max-width:820px}
+  .close-grid{display:grid;grid-template-columns:280px 1fr;gap:36px;align-items:center}
+  .close-figure{margin:0}
+  .close-figure .media{background:var(--capri-deep)}
+  .close-figure img{aspect-ratio:684/1023;object-fit:cover}
   .close .eyebrow{color:rgba(255,255,255,.65)}
   .close .eyebrow::after{background:var(--rule-light)}
   .close h2{
@@ -272,18 +277,25 @@
   footer p{margin:0;font-family:var(--mono);font-size:11px;letter-spacing:.05em}
 
   @media (max-width:640px){
-    .headline{padding:40px 0 26px}
-    .proof{padding:48px 0 4px}
-    .close{padding:56px 0}
-    .mid-cta{margin:52px 0}
-    .mid-cta-band .inner{padding:28px 0;flex-direction:column;align-items:flex-start}
+    .headline{padding:28px 0 20px}
+    .proof{padding:34px 0 4px}
+    .close{padding:36px 0}
+    .close-grid{grid-template-columns:1fr;gap:22px}
+    .close-figure img{aspect-ratio:16/9;max-height:220px}
+    .mid-cta{margin:34px 0}
+    .mid-cta-band .inner{padding:22px 0;flex-direction:column;align-items:flex-start}
     .mid-cta-photo .grid{grid-template-columns:1fr}
     .mid-cta-photo .ph{height:180px}
     .masthead .tag{display:none}
-    .review{padding:24px 22px}
+    .review{padding:20px 18px;margin:18px 0}
     .review .head{flex-wrap:wrap;row-gap:10px}
     .review .stars{margin-left:60px;text-align:left}
     .review .source{margin-left:60px}
+    article p{margin-bottom:14px}
+    .ask{margin:24px 0 26px;padding:18px 0}
+    .belief-quote{margin:16px 0}
+    figcaption{padding:6px 0 16px}
+    .proof-marker{margin-bottom:14px}
   }
 </style>
 </head>
@@ -353,7 +365,9 @@
         <div class="lede">
           <p>I've eaten at a lot of restaurants around Orlando that describe themselves as <b>"authentic Italian."</b></p>
           <p><b>Most of them mean the sauce is red.</b></p>
-          <p>The word has been used so many times around here that it's become furniture. Every menu says it. Every window decal says it. And then you sit down and get the same gluey alfredo you'd get at a chain off I-4, served by a nineteen-year-old named Brandon who has never heard of Campania.</p>
+          <p>The word has been used so many times around here that it's become furniture.</p>
+          <p>Every menu says it. Every window decal says it.</p>
+          <p>And then you sit down and get the same gluey alfredo you'd get at a chain off I-4, served by a nineteen-year-old named Brandon who has never heard of Campania.</p>
           <p><b>So here's a more useful question than "is it authentic."</b></p>
         </div>
 
@@ -367,7 +381,7 @@
   <!-- 01 — PEOPLE -->
   <section class="proof">
     <div class="wrap"><div class="col">
-      <span class="proof-tag"><b>Proof 01</b><span>People</span></span>
+      <div class="proof-marker"><span class="num">01</span><span class="cat">People</span></div>
       <h2 class="proof-title">The Staff Speak Italian, Because They Were Born There.</h2>
     </div></div>
     <div class="wrap"><figure>
@@ -411,7 +425,7 @@
   <!-- 02 — EQUIPMENT -->
   <section class="proof">
     <div class="wrap"><div class="col">
-      <span class="proof-tag"><b>Proof 02</b><span>Equipment</span></span>
+      <div class="proof-marker"><span class="num">02</span><span class="cat">Equipment</span></div>
       <h2 class="proof-title">The oven came from Naples. On a boat.</h2>
     </div></div>
     <div class="wrap"><figure>
@@ -464,7 +478,7 @@
   <!-- 03 — GEOGRAPHY -->
   <section class="proof">
     <div class="wrap"><div class="col">
-      <span class="proof-tag"><b>Proof 03</b><span>Geography</span></span>
+      <div class="proof-marker"><span class="num">03</span><span class="cat">Geography</span></div>
       <h2 class="proof-title">It's not "Italian." It's about thirty miles of Italian coastline.</h2>
     </div></div>
     <div class="wrap"><figure>
@@ -493,7 +507,7 @@
   <!-- 04 — SOURCING -->
   <section class="proof">
     <div class="wrap"><div class="col">
-      <span class="proof-tag"><b>Proof 04</b><span>Sourcing</span></span>
+      <div class="proof-marker"><span class="num">04</span><span class="cat">Sourcing</span></div>
       <h2 class="proof-title">The lemon cake is from a bakery in a town of three thousand people.</h2>
     </div></div>
     <div class="wrap"><figure>
@@ -530,7 +544,7 @@
   <!-- 05 — PEDIGREE & ACCESS -->
   <section class="proof">
     <div class="wrap"><div class="col">
-      <span class="proof-tag"><b>Proof 05</b><span>Pedigree &amp; access</span></span>
+      <div class="proof-marker"><span class="num">05</span><span class="cat">Pedigree &amp; access</span></div>
       <h2 class="proof-title">The man who built it also built the Italian restaurants inside EPCOT.</h2>
     </div></div>
     <div class="wrap"><figure>
@@ -568,7 +582,7 @@
   <!-- 06 — HONEST CONCESSION -->
   <section class="proof">
     <div class="wrap"><div class="col">
-      <span class="proof-tag"><b>Proof 06</b><span>Honest concession</span></span>
+      <div class="proof-marker"><span class="num">06</span><span class="cat">Honest concession</span></div>
       <h2 class="proof-title">The plates are smaller than you expect. That's on purpose, and it changes how you order.</h2>
     </div></div>
     <div class="wrap"><figure>
@@ -596,24 +610,31 @@
 </main>
 
 <section class="close" id="reserve">
-  <div class="wrap">
-    <p class="eyebrow">The close</p>
-    <h2>If you want to test all six for $45, go on a Sunday.</h2>
-    <p>Sunday Supper is <span class="price">three courses for $45</span>. An antipasto — the burrata with roasted tomatoes, or the prosciutto and melon. A main, including the rack of lamb or the braised snapper. And a cannolo to finish.</p>
-    <p>It's the cheapest way to find out whether any of this is true.</p>
-    <p>Reserve a table, take a bite of the pizza, and see if the crust tastes like something that came out of an oven built in Naples. <b>You'll know in about four seconds.</b></p>
+  <div class="wrap close-grid">
+    <figure class="close-figure">
+      <div class="media">
+        <img src="images/close-cocktails.webp" width="684" height="1023" alt="An Aperol spritz and a house cocktail on the marble bar, the Simply Capri wine list open beside them." loading="lazy" decoding="async">
+      </div>
+    </figure>
+    <div>
+      <p class="eyebrow">The close</p>
+      <h2>If you want to test all six for $45, go on a Sunday.</h2>
+      <p>Sunday Supper is <span class="price">three courses for $45</span>. An antipasto — the burrata with roasted tomatoes, or the prosciutto and melon. A main, including the rack of lamb or the braised snapper. And a cannolo to finish.</p>
+      <p>It's the cheapest way to find out whether any of this is true.</p>
+      <p>Reserve a table, take a bite of the pizza, and see if the crust tastes like something that came out of an oven built in Naples. <b>You'll know in about four seconds.</b></p>
 
-    <p class="scarcity"><span class="dot"></span>Weeknight and Sunday tables go first — this one tends to book out fast.</p>
+      <p class="scarcity"><span class="dot"></span>Weeknight and Sunday tables go first — this one tends to book out fast.</p>
 
-    <div class="cta-row">
-      <a class="btn-primary" href="#" id="reserve-cta">Reserve a table</a>
+      <div class="cta-row">
+        <a class="btn-primary" href="#" id="reserve-cta">Reserve a table</a>
+      </div>
+
+      <p class="fine">
+        Simply Capri · 114 Ruby Red Place, Winter Garden, at Flamingo Crossings<br>
+        Lunch daily from noon · Dinner from four · Free parking out front<br>
+        Sleeved shirts and shoes — that's the entire dress code
+      </p>
     </div>
-
-    <p class="fine">
-      Simply Capri · 114 Ruby Red Place, Winter Garden, at Flamingo Crossings<br>
-      Lunch daily from noon · Dinner from four · Free parking out front<br>
-      Sleeved shirts and shoes — that's the entire dress code
-    </p>
   </div>
 </section>
 
