@@ -9,7 +9,10 @@ if (!url) {
   process.exit(1);
 }
 
-const outDir = "./temporary screenshots";
+const projectMatch = url.match(/\/projects\/([^/]+)\//);
+const outDir = projectMatch
+  ? `./projects/${projectMatch[1]}/temporary screenshots`
+  : "./temporary screenshots";
 await mkdir(outDir, { recursive: true });
 
 const existing = await readdir(outDir).catch(() => []);

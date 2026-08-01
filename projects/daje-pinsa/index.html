@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daje Pinsa — Born in Rome, Served in Orlando</title>
+<meta name="description" content="A 30-year Italian master chef just opened Daje Pinsa in SoDo, Orlando — serving 72-hour fermented Roman pinsa that's crispier, lighter, and easier on your stomach than any pizza in Central Florida.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Marcellus&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --primary:#92352e; --primary-focus:#81251f; --primary-subtle:#fcece9; --primary-subtle-focus:#fbdfdb;
+  --text-on-primary-subtle:#a74840; --border-primary:#f3c4be; --border-primary-subtle:#e3968c;
+  --secondary:#2e8b92; --secondary-focus:#007f87; --secondary-subtle:#e2f6f8;
+  --text-on-secondary-subtle:#177b82; --border-secondary:#62b5bc; --border-secondary-subtle:#a8dbdf;
+  --surface:#f4efe8; --surface-2:#fffdfc; --surface-3:#ffffff;
+  --surface-inverse:#202020;
+  --text:#2e2e2e; --text-secondary:#646464; --text-action:#a2433c; --text-on-primary:#ffffff;
+  --border:#cecece;
+  --display:"Cinzel",Georgia,serif;
+  --heading:"Marcellus",Georgia,serif;
+  --body:"Satoshi","Helvetica Neue",Arial,sans-serif;
+  --maxw:40rem;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} *{animation:none!important;transition:none!important}}
+body{
+  margin:0; background:var(--surface); color:var(--text);
+  font-family:var(--body); font-size:16px; line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+  padding-bottom:4.25rem; /* space for sticky mobile bar */
+}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 1.25rem}
+
+/* ---------- header ---------- */
+.site-header{
+  position:sticky;top:0;z-index:40;background:var(--surface-2);
+  border-bottom:1px solid var(--border-primary-subtle);
+}
+.site-header .wrap{
+  display:flex;align-items:center;justify-content:space-between;
+  padding-top:.6rem;padding-bottom:.6rem;max-width:44rem;
+}
+.site-header img{height:1.9rem;width:auto}
+.header-call{
+  font-family:var(--body);font-weight:700;font-size:.75rem;letter-spacing:.05em;
+  color:var(--primary);text-decoration:none;border:1px solid var(--border-primary);
+  padding:.45rem .8rem;border-radius:999px;transition:background-color .18s,color .18s;
+}
+.header-call:hover{background:var(--primary-subtle)}
+.header-call:focus-visible{outline:2px solid var(--secondary);outline-offset:2px}
+
+/* ---------- hero ---------- */
+.hero{position:relative;background:var(--surface-inverse);overflow:hidden}
+.hero-media{aspect-ratio:4/3;width:100%;overflow:hidden}
+.hero-media img{width:100%;height:100%;object-fit:cover;object-position:center 35%}
+.hero-scrim{
+  position:absolute;inset:0;
+  background:linear-gradient(0deg,rgba(0,0,0,.72) 0%,rgba(0,0,0,.42) 42%,rgba(0,0,0,.05) 68%);
+}
+.hero-copy{
+  position:relative;padding:1.6rem 1.25rem 2rem;margin-top:-6.5rem;
+}
+.hero-eyebrow{
+  display:block;font-family:var(--body);font-weight:700;font-size:.6875rem;
+  letter-spacing:.22em;text-transform:uppercase;color:#f3c4be;margin-bottom:.6rem;
+}
+.hero h1{
+  font-family:var(--display);font-weight:700;text-transform:uppercase;
+  letter-spacing:.05em;line-height:1.22;color:#fff;margin:0 0 .55rem;
+  font-size:clamp(1.5rem,6.6vw,2.05rem);
+  text-wrap:balance;
+}
+.hero-sub{
+  font-family:var(--heading);color:#f4efe8;font-size:clamp(1.05rem,4vw,1.25rem);
+  line-height:1.4;margin:0 0 1.25rem;max-width:34rem;
+}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:.4rem;
+  font-family:var(--body);font-weight:700;font-size:.8125rem;letter-spacing:.1em;
+  text-transform:uppercase;text-decoration:none;border-radius:999px;
+  padding:.95rem 1.6rem;border:1px solid transparent;cursor:pointer;
+  transition:transform .15s cubic-bezier(.2,.8,.2,1),background-color .18s,border-color .18s,color .18s;
+}
+.btn:active{transform:scale(.97)}
+.btn:focus-visible{outline:2px solid var(--secondary);outline-offset:3px}
+.btn-primary{background:var(--primary);color:#fff}
+.btn-primary:hover{background:var(--primary-focus)}
+.btn-outline-invert{background:transparent;color:#fff;border-color:rgba(255,255,255,.6)}
+.btn-outline-invert:hover{background:rgba(255,255,255,.12)}
+.btn-secondary{background:transparent;color:var(--primary);border-color:var(--border-primary)}
+.btn-secondary:hover{background:var(--primary-subtle)}
+.btn-block{width:100%}
+
+/* ---------- intro ---------- */
+.intro{padding:2.75rem 0 .5rem}
+.intro p{margin:0 0 1.1rem;color:var(--text);font-size:1rem}
+.intro .lede{
+  font-family:var(--heading);font-size:1.25rem;line-height:1.5;color:var(--text);
+  margin-bottom:1.4rem;
+}
+.intro .kicker-line{
+  font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.12em;
+  color:var(--primary);font-size:1.05rem;margin:1.8rem 0 0;text-align:center;
+}
+
+/* ---------- numbered sections ---------- */
+.numsec{padding:2.5rem 0}
+.numsec + .numsec{border-top:1px solid var(--border-primary-subtle)}
+.numsec-head{display:flex;gap:.9rem;align-items:flex-start;margin-bottom:1rem}
+.oval-num{
+  flex:none;position:relative;width:2.75rem;height:2.1rem;margin-top:.15rem;
+  border:1.5px solid var(--primary);border-radius:52% 48% 55% 45%/58% 55% 45% 42%;
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--display);font-weight:700;font-size:1rem;color:var(--primary);
+  background:var(--primary-subtle);
+}
+.oval-num::before,.oval-num::after{
+  content:"";position:absolute;width:3px;height:3px;border-radius:50%;background:var(--border-primary-subtle);
+}
+.oval-num::before{top:.3rem;left:.45rem}
+.oval-num::after{bottom:.3rem;right:.55rem}
+.numsec h2{
+  font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.045em;
+  color:var(--text);font-size:clamp(1.05rem,4.3vw,1.3rem);line-height:1.32;margin:0;
+  text-wrap:balance;
+}
+.numsec p{margin:0 0 1rem;color:var(--text-secondary);font-size:.975rem;line-height:1.7}
+.numsec p strong{color:var(--text);font-weight:700}
+.numsec figure{margin:1.3rem 0 0;border:1px solid var(--border-primary);background:var(--surface-3)}
+.numsec figure img{aspect-ratio:4/3;width:100%;object-fit:cover}
+.numsec figcaption{
+  padding:.6rem .9rem;font-family:var(--body);font-size:.75rem;color:var(--text-secondary);
+  border-top:1px solid var(--border-primary-subtle);
+}
+
+/* ---------- mid banner ---------- */
+.mid-banner{
+  background:var(--primary);color:#fff;padding:1.6rem 1.25rem;text-align:center;
+  margin:0;
+}
+.mid-banner p{
+  margin:0 0 .9rem;font-family:var(--heading);font-size:1.05rem;line-height:1.5;
+  color:var(--text-on-primary);max-width:30rem;margin-left:auto;margin-right:auto;
+}
+
+/* ---------- menu cards ---------- */
+.menu-list{display:flex;flex-direction:column;gap:1rem;margin-top:1.4rem}
+.menu-card{
+  border:1px solid var(--border-primary);background:var(--surface-3);padding:1.1rem 1.15rem;
+}
+.menu-card .kicker{
+  font-family:var(--heading);font-size:.95rem;color:var(--text-secondary);margin:0 0 .2rem;
+}
+.menu-card .ttl{
+  font-family:var(--display);font-weight:700;font-size:.85rem;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--primary);margin:0 0 .55rem;
+}
+.menu-card p{margin:0;font-size:.9rem;color:var(--text-secondary);line-height:1.65}
+.menu-rest{
+  margin-top:1.5rem;padding-top:1.4rem;border-top:1px dashed var(--border-primary-subtle);
+  font-size:.9rem;color:var(--text-secondary);line-height:1.8;
+}
+.menu-rest strong{color:var(--text)}
+
+/* ---------- final CTA ---------- */
+.final{background:var(--surface-inverse);color:#fff;padding:3rem 0 3.25rem}
+.final .wrap{text-align:center}
+.final .eyebrow{
+  font-family:var(--body);font-weight:700;font-size:.6875rem;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--border-secondary-subtle);margin:0 0 .7rem;
+}
+.final h2{
+  font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  font-size:clamp(1.4rem,6vw,1.9rem);line-height:1.28;margin:0 0 1.1rem;color:#fff;
+  text-wrap:balance;
+}
+.final p{color:#d9d4cd;font-size:.975rem;line-height:1.7;max-width:30rem;margin:0 auto 1.1rem}
+.bundle{
+  border:1px solid #4a4a4a;background:#2a2a2a;padding:1.2rem 1.15rem;margin:1.6rem 0;text-align:left;
+}
+.bundle .ttl{
+  font-family:var(--display);font-weight:700;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--border-primary);margin:0 0 .5rem;
+}
+.bundle p{margin:0;color:#c9c4bd;font-size:.9rem;text-align:left;max-width:none}
+.final figure{margin:1.75rem 0 1.75rem;border:1px solid #3d3d3d}
+.final figure img{aspect-ratio:4/3;width:100%;object-fit:cover}
+.gluten-note{font-size:.75rem;color:#9a958e;line-height:1.6;margin-top:1.5rem;max-width:30rem;margin-left:auto;margin-right:auto}
+
+/* ---------- footer ---------- */
+footer{background:var(--surface);border-top:1px solid var(--border-primary-subtle);padding:2rem 0 2.25rem}
+footer .wrap{text-align:center}
+footer img{height:1.6rem;margin:0 auto 1rem}
+footer address{font-style:normal;color:var(--text-secondary);font-size:.85rem;line-height:1.9}
+footer a{color:var(--text-action);text-decoration:none}
+footer a:hover{text-decoration:underline}
+footer .copyright{margin-top:1.25rem;font-size:.7rem;color:#a39d94;letter-spacing:.04em}
+
+/* ---------- sticky mobile CTA bar ---------- */
+.mobile-bar{
+  position:fixed;left:0;right:0;bottom:0;z-index:50;
+  display:flex;gap:.6rem;padding:.6rem .75rem;
+  background:var(--surface-2);border-top:1px solid var(--border-primary);
+  box-shadow:0 -6px 16px -8px rgba(0,0,0,.28);
+}
+.mobile-bar .btn{flex:1;padding:.8rem .5rem;font-size:.75rem}
+
+@media (min-width:640px){
+  body{padding-bottom:0}
+  .mobile-bar{display:none}
+  .wrap{padding:0 2rem}
+  .hero-copy{padding:2.25rem 2rem 2.75rem}
+  .intro{padding-top:3.5rem}
+  .numsec{padding:3.25rem 0}
+  .final{padding:4.5rem 0 5rem}
+}
+@media (min-width:960px){
+  .hero-media{aspect-ratio:21/9}
+  .hero-copy{margin-top:-8.5rem}
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <img src="images/logo.webp" alt="Daje Pinsa">
+    <a class="header-call" href="tel:+14074566136">(407) 456-6136</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-media">
+    <img src="images/exterior.webp" alt="The storefront of Daje Pinsa at Sandlake Station in Orlando, warm evening light." fetchpriority="high">
+  </div>
+  <div class="hero-scrim"></div>
+  <div class="hero-copy">
+    <span class="hero-eyebrow">SoDo, Orlando &middot; Now Open</span>
+    <h1>A 30-Year Italian Master Chef Just Opened in SoDo</h1>
+    <p class="hero-sub">Here's what he's serving that nobody else in Orlando has.</p>
+    <a class="btn btn-primary" href="#order">View Menu &amp; Order Online</a>
+  </div>
+</section>
+
+<main>
+  <section class="intro">
+    <div class="wrap">
+      <p class="lede">Chef Gabriele Uberti competed twice in the Italian Pizza Championship, built restaurants for Disney, and now serves a 72-hour fermented Roman crust that's crispier, lighter, and easier on your stomach than any pizza in Central Florida.</p>
+
+      <p>There's a small restaurant on South Orange Avenue that most of Orlando doesn't know about yet.</p>
+      <p>Just a quiet storefront at Sandlake Station, where a guy who's been cooking since he was 13 years old in Italy is serving something that doesn't exist anywhere else in this city.</p>
+      <p>His name is Gabriele Uberti. He's amassed <strong>thirty long years</strong> of professional Italian cooking, as well as two entries in the prestigious Italian Pizza Championship.</p>
+      <p>And after sixteen years building restaurant concepts for Patina Restaurant Group and Walt Disney World, he opened Daje Pinsa, a Roman-style restaurant serving an ancient Italian flatbread called <em>pinsa</em> that 99% of Americans have never tried.</p>
+
+      <p class="kicker-line">Here are 5 things worth knowing before you go.</p>
+    </div>
+  </section>
+
+  <section class="numsec">
+    <div class="wrap">
+      <div class="numsec-head">
+        <span class="oval-num">1</span>
+        <h2>The Chef Has 30 Years in Italian Kitchens. Here's Why He Opened His Own.</h2>
+      </div>
+      <p>If you've eaten at a high-end Italian restaurant in a Disney resort, there's a real chance Gabriele Uberti's fingerprints are on the menu. That's how good he is.</p>
+      <p>But chefs who've worked at that level for that long get tired of having their potential limited. Chef Gabriele is master-level at what he does &mdash; he can, and will, provide the best quality there is.</p>
+      <p>But corporate kitchens rush the dough, and ingredients get swapped for cheaper versions because the company profits more that way.</p>
+      <p>Seeing this, Gabriele wanted to do it right. His way. With the 72-hour dough process he grew up with in Rome and the imported ingredients he trusts. So he opened Daje Pinsa on South Orange Avenue.</p>
+      <figure>
+        <img src="images/chef.webp" alt="Chef Gabriele Uberti stretching pinsa dough by hand in the kitchen." loading="lazy" width="1200" height="900">
+      </figure>
+    </div>
+  </section>
+
+  <section class="numsec">
+    <div class="wrap">
+      <div class="numsec-head">
+        <span class="oval-num">2</span>
+        <h2>This Isn't Pizza. It's a 2,000-Year-Old Roman Invention.</h2>
+      </div>
+      <p>Most people hear <strong>&ldquo;pinsa&rdquo;</strong> and think it's a fancy word for thin-crust pizza. But they're not even the same thing.</p>
+      <p>The word comes from the Latin <em>pinsere</em>, meaning &ldquo;to press&rdquo; or &ldquo;to stretch.&rdquo; Ancient Roman farmers and soldiers made flat, oval breads from mixed grains, water, salt, and herbs, baked on hot stones &mdash; an airy, light, portable dough that's easy to digest.</p>
+      <p>The modern version was formalized by Italian flour researcher Corrado Di Marco, who developed a specific flour blend and hydration method based on ancient Roman grain processing.</p>
+      <p>Pinsa uses three grains: Type 0 Italian wheat, non-GMO soy flour, and cooked rice flour. The wheat and soy give structure and protein, and the rice flour traps moisture during baking, creating a paper-thin crackling exterior while keeping the inside airy.</p>
+      <p>The result is a crust with <strong>33% fewer carbs and 85% less fat</strong> than standard pizza dough.</p>
+      <figure>
+        <img src="images/crust-cross-section.webp" alt="Close-up cross-section of pinsa crust showing large air pockets from long fermentation." loading="lazy" width="1200" height="900">
+      </figure>
+    </div>
+  </section>
+
+  <section class="numsec">
+    <div class="wrap">
+      <div class="numsec-head">
+        <span class="oval-num">3</span>
+        <h2>The Dough Ferments for 72 Hours. That Means Zero Bloating.</h2>
+      </div>
+      <p>The #1 worry with Italian dining is the heavy carbs. But rest assured, Daje Pinsa is bloat-free.</p>
+      <p>Real Italian dough isn't even supposed to bloat you in the first place. This only happens in America because most pizzerias ferment their dough for 4 to 24 hours &mdash; chain spots do it in under 2, with industrial yeast and dough conditioners.</p>
+      <p>When dough rises quickly, the starches and gluten proteins inside don't break down. They stay intact, which means your stomach has to break everything down itself. Resulting in the painful bloating and sluggishness.</p>
+      <p>Gabriele's pinsa bases go through a 72-hour cold fermentation at near-refrigerator temperatures. During those three days, the natural enzymes in the flour and sourdough starter break down everything for you &mdash; so you can enjoy the whole thing worry-free.</p>
+      <p>Gabriele then slides them into the TurboChef oven at 600&deg;F, which gives it that crackly, crunchy shell on the outside, but light on the inside. Same standards you'd find at a pinseria in Rome, except it's a quick drive from your house.</p>
+      <figure>
+        <img src="images/dough-comparison.webp" alt="Side-by-side comparison of dense standard pizza dough and airy, open-crumb pinsa dough." loading="lazy" width="1200" height="900">
+      </figure>
+    </div>
+  </section>
+
+  <div class="mid-banner">
+    <p>Daje Pinsa is open now at Sandlake Station on South Orange Avenue. Or keep reading for what's worth ordering first.</p>
+    <a class="btn btn-outline-invert" href="#order">See the Full Menu</a>
+  </div>
+
+  <section class="numsec">
+    <div class="wrap">
+      <div class="numsec-head">
+        <span class="oval-num">4</span>
+        <h2>The Menu Is Short. Every Item Earned Its Spot.</h2>
+      </div>
+      <p>Gabriele didn't build a 40-item menu. Only a handful of classic Roman pinsas, a few signatures he developed, appetizers, and a dessert. That's it. What changes is what goes on top &mdash; and this is where 30 years of Italian kitchen experience shows up on your plate.</p>
+      <figure>
+        <img src="images/bella-roma.webp" alt="The Bella Roma pinsa topped with buffalo mozzarella, prosciutto di Parma, roasted mushrooms, and white truffle oil." loading="lazy" width="1200" height="900">
+      </figure>
+      <div class="menu-list">
+        <div class="menu-card">
+          <p class="kicker">Start here</p>
+          <p class="ttl">The Bella Roma</p>
+          <p>Stretchy buffalo mozzarella, salty silky prosciutto di Parma, roasted mushrooms, fresh parmesan, and white truffle oil drizzled cold after the bake so the aroma hits the second the plate lands.</p>
+        </div>
+        <div class="menu-card">
+          <p class="kicker">For the heat-seekers</p>
+          <p class="ttl">The Diavola</p>
+          <p>Real Calabrese salami crisps under the oven's blast, releasing spicy, smoky fat into the mozzarella. Mild Calabrese chili peppers and red-pepper garlic oil on top &mdash; but because the crust is airy instead of dense, the spice doesn't sit heavy.</p>
+        </div>
+        <div class="menu-card">
+          <p class="kicker">The surprise</p>
+          <p class="ttl">Fig &amp; Prosciutto</p>
+          <p>Fig spread instead of tomato sauce, goat cheese, prosciutto, peppery arugula after the bake, finished with balsamic and Mike's Hot Honey. Sounds like a lot of flavors &mdash; Gabriele balanced the ratios from years of tasting at a professional level.</p>
+        </div>
+        <div class="menu-card">
+          <p class="kicker">To start</p>
+          <p class="ttl">Pinsa Sticks</p>
+          <p>The same fermented dough, cut into strips, baked with garlic oil and parmesan until golden-crisp on the bottom and pull-apart tender inside, with warm house-made marinara on the side.</p>
+        </div>
+        <div class="menu-card">
+          <p class="kicker">For dessert</p>
+          <p class="ttl">Guava &amp; Sweet Cream Pinsa</p>
+          <p>Guava jam on the crust, melted mozzarella, house-made sweet cream, granulated honey. You won't find it at any other pizzeria in Orlando.</p>
+        </div>
+      </div>
+      <figure>
+        <img src="images/flatlay.webp" alt="A flat-lay of several pinsas showing the variety of toppings on the menu." loading="lazy" width="1200" height="900">
+      </figure>
+      <p class="menu-rest"><strong>The rest of the menu fills in without padding:</strong> Margherita for purists, Macellaio with cup-and-char pepperoni and pancetta, Lemon Pesto Chicken with fresh lemon wedges, the White Slice with ricotta and hot honey &mdash; plus a rotating Pinsa of the Month.</p>
+    </div>
+  </section>
+
+  <section class="numsec">
+    <div class="wrap">
+      <div class="numsec-head">
+        <span class="oval-num">5</span>
+        <h2>The Price on the Menu Is the Price You Pay.</h2>
+      </div>
+      <p>This shouldn't need its own section. But if you've eaten at enough Orlando restaurants, you know why it does.</p>
+      <p>Some local spots charge a 10% mandatory takeout fee. Others add a 3% credit card surcharge at checkout. Some do both. You find out on the receipt, not the menu.</p>
+      <p>Gabriele doesn't do that. The price listed is the price charged. You're paying for what's on your plate, not subsidizing a fee structure designed to squeeze an extra few dollars out of you after you've committed.</p>
+      <p>Gabriele also values your time. Each pinsa finishes in about two minutes. You're not waiting 45 minutes for a table and another 30 for food. Walk in, order, enjoy.</p>
+      <figure>
+        <img src="images/interior.webp" alt="The clean, welcoming counter and dining area inside Daje Pinsa." loading="lazy" width="1200" height="900">
+      </figure>
+    </div>
+  </section>
+
+  <section class="final" id="order">
+    <div class="wrap">
+      <p class="eyebrow">Born in Italy &middot; Shared with Orlando</p>
+      <h2>How You Can Enjoy the Most of Daje, Today</h2>
+      <p>Daje Pinsa is at Sandlake Station on South Orange Avenue in SoDo / Belle Isle, Orlando.</p>
+
+      <div class="bundle">
+        <p class="ttl">Roman Date Night Bundle</p>
+        <p>Two signature pinsas and a dessert pinsa or Pinsa Sticks &mdash; enough for two, for a lovely evening with your partner.</p>
+      </div>
+
+      <p>Take the quick drive and sit down at the restaurant, where we'll take you through exceptional Italian service. Or order online from the same simple menu, and we'll prepare your pinsas right away &mdash; so you can order even if you're 10 minutes away. As you walk in, they'll be waiting for you, warm and fresh, so you can enjoy them wherever you want.</p>
+
+      <a class="btn btn-primary" href="#" style="margin-top:.5rem">View the Full Menu &amp; Order Online &rarr;</a>
+
+      <figure>
+        <img src="images/hand-slice.webp" alt="A hand holding a slice of pinsa, showing its crisp, airy crust." loading="lazy" width="1200" height="900">
+      </figure>
+
+      <p class="gluten-note">Note: the 72-hour fermentation breaks down most of the gluten and starches, making pinsa lighter and easier to digest. But it contains wheat flour. Gluten-reduced, not gluten-free. Not safe for Celiac disease.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="images/logo.webp" alt="Daje Pinsa">
+    <address>
+      7825 S. Orange Ave, Orlando, FL 32809<br>
+      <a href="tel:+14074566136">(407) 456-6136</a>
+    </address>
+    <p class="copyright">&copy; 2026 Daje Pinsa. Not just pizza. Pinsa.</p>
+  </div>
+</footer>
+
+<nav class="mobile-bar" aria-label="Quick actions">
+  <a class="btn btn-secondary" href="tel:+14074566136">Call</a>
+  <a class="btn btn-primary" href="#order">Order Online</a>
+</nav>
+
+</body>
+</html>
