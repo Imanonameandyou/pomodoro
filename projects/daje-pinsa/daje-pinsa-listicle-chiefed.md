@@ -4,15 +4,15 @@
 
 ---
 
-There's a small restaurant on South Orange Avenue that most of Orlando doesn't know about yet.
+Here's an underrated find: A small restaurant on South Orange Avenue with something that most of Orlando unfortunately hasn't savoured before.
 
-Just a quiet storefront at Sandlake Station, where a guy who's been cooking since he was 13 years old in Italy is serving something that doesn't exist anywhere else in this city.
+At this quiet storefront at Sandlake Station, exists a guy who's been cooking since he was 13 years old in Italy and is serving something that doesn't exist anywhere else in this city.
 
 His name is Gabriele Uberti. 
 
-He's amassed **thirty, long years** of professional Italian cooking, as well as two entries in the prestigious Italian Pizza Championship. 
+He's racked up **thirty, long years** of professional Italian cooking, as well as two entries in the prestigious Italian Pizza Championship. 
 
-And after sixteen years building restaurant concepts for Patina Restaurant Group and Walt Disney World, he opened Daje Pinsa, a Roman-style restaurant serving an ancient Italian flatbread called *pinsa* that 99% of Americans have never tried.
+**And after sixteen years building restaurant concepts for Patina Restaurant Group and Walt Disney World, he opened Daje Pinsa, a Roman-style restaurant serving an ancient Italian flatbread called *pinsa* that 99% of Americans have never tried.**
 
 Here are 5 things worth knowing before you go.
 
@@ -22,19 +22,17 @@ Here are 5 things worth knowing before you go.
 
 ## 1. The Chef Has 30 Years in Italian Kitchens. Here's Why He Opened His Own.
 
-If you've eaten at a high-end Italian restaurant in a Disney resort, there's a real chance Gabriele Uberti's fingerprints are on the menu.
+If you've dined at a high-end Italian restaurant in a Disney resort, there's a real chance Gabriele Uberti's fingerprints are on the menu.
 
-That's how good he is.
+But after 16 years of breaking records with the prestigious Patina Group, managing multiple 4.8+ star restaurants...
 
-But chefs who've worked at that level for that long get tired of having their potential limited.
+He grew tired of seeing so much wasted potential.
 
-Chef Gabriele Uberti is master-level at what he does...
+The master-level quality he wanted to give guests, limited by company profits.
 
-He can, and will provide the best quality there is...
+They rush the dough, and ingredients get swapped for cheaper versions.
 
-But corporate kitchens rush the dough, and ingredients get swapped for cheaper versions because the company profits more that way.
-
-Seeing this, Gabriele wanted to do it right. His way. With the 72-hour dough process he grew up with in Rome and the imported ingredients he trusts.
+So, Gabriele wanted to do it right. His way. With the 72-hour dough process he grew up with in Rome and the fresh, imported ingredients he trusts.
 
 So he opened Daje Pinsa on South Orange Avenue.
 
@@ -52,13 +50,13 @@ The word comes from the Latin *pinsere*, meaning "to press" or "to stretch."
 
 This is because Ancient Roman farmers and soldiers made flat, oval breads from mixed grains, water, salt, and herbs, baked on hot stones. 
 
-Curating an airy, light, portable dough that's easy to digest. 
+Which makes for an airy, light, portable dough that's easy to digest. 
 
 The modern version was formalized by Italian flour researcher Corrado Di Marco, who developed a specific flour blend and hydration method based on ancient Roman grain processing.
 
 Pinsa uses three grains: Type 0 Italian wheat, non-GMO soy flour, and cooked rice flour. 
 
-The wheat and soy give structure and proteins, and the rice flour traps moisture during baking, creating a paper-thin crackling exterior while keeping the inside airy.
+The wheat and soy give structure and proteins, and the rice flour traps moisture during baking, creating a paper-thin, crispy, crackling exterior while keeping the inside airy.
 
 The result is a crust with 33% fewer carbs and 85% less fat than standard pizza dough.
 
@@ -82,15 +80,15 @@ When dough rises quickly, the starches and gluten proteins inside don't break do
 
 They stay intact, which means your stomach has to break everything down itself.
 
-Resulting in the painful bloating and sluggishness.
+Giving you that painful bloating and sluggishness.
 
 Gabriele's pinsa bases go through a 72-hour cold fermentation at near-refrigerator temperatures. 
 
 During those three days, the natural enzymes in the flour and sourdough starter break down everything for you.
 
-So you can enjoy the whole thing worry-free. Not sluggish or reaching for the Lactaid.
+So you can enjoy the whole thing worry-free.
 
-Gabriele then slides them in the TurboChef oven at 600°F. Which gives it that crackly, crunchy shell on the outside, but light on the inside. 
+Gabriele then slides them in the TurboChef oven at 600°F. Which gives it that crackly, crispy shell on the outside, but light on the inside. 
 
 Same standards you'd find at a pinseria in Rome, except it's a quick drive from your house.
 
@@ -120,7 +118,7 @@ And for dessert: **the Guava & Sweet Cream Pinsa.** Guava jam on the crust, melt
 
 `[IMAGE: Flat-lay of 2-3 pinsas on a table showing variety and color contrast. Natural light, no heavy editing.]`
 
-The rest of the menu fills in without padding: Margherita for purists, Macellaio with cup-and-char pepperoni and pancetta, Lemon Pesto Chicken with fresh lemon wedges, the White Slice with ricotta and hot honey. Plus a rotating Pinsa of the Month.
+The rest of the menu fills in all your other needs: The classic, reliable Margherita, Macellaio with cup-and-char pepperoni and pancetta, Lemon Pesto Chicken with fresh lemon wedges, the White Slice with ricotta and hot honey. Plus a rotating Pinsa of the Month.
 
 ---
 
@@ -128,15 +126,25 @@ The rest of the menu fills in without padding: Margherita for purists, Macellaio
 
 This shouldn't need its own section. But if you've eaten at enough Orlando restaurants, you know why it does.
 
-Some local spots charge a 10% mandatory takeout fee. Others add a 3% credit card surcharge at checkout. Some do both. You find out on the receipt, not the menu.
+Some local spots charge a 10% mandatory takeout fee. Others add a 3% credit card surcharge at checkout. Some do both. And you only find out on the receipt, not the menu.
 
-Gabriele doesn't do that. The price listed is the price charged. 
+Gabriele doesn't do that to you. 
 
-You're paying for what's on your plate, not subsidizing a fee structure designed to squeeze an extra $4 out of you after you've committed.
+He knows the weight of every sweat dollar, so the price listed is the price charged. 
+
+What other restaurant puts customers before profits?
+
+And not only does he value your wallet...
 
 Gabriele also values your time. 
 
-Each pinsa finishes in about two minutes. You're not waiting 45 minutes for a table and another 30 for food. Walk in, order, enjoy.
+Each pinsa is on your plate, steaming, in about two minutes. You don't wait longer than 20 minutes for a table and food on your plate. 
+
+You just walk in, order, enjoy.
+
+Now, if a restaurant founded by a famous, prestigious chef with true Italian service sounds the least bit exciting to you...
+
+I have great news for you!
 
 `[IMAGE: Interior or counter shot of Daje Pinsa. Clean, casual, welcoming. Neighborhood spot, not reservation-required.]`
 
@@ -144,23 +152,37 @@ Each pinsa finishes in about two minutes. You're not waiting 45 minutes for a ta
 
 ## How You Can Enjoy The Most of Daje, Today!
 
-Daje Pinsa is at **Sandlake Station on South Orange Avenue** in SoDo / Belle Isle, Orlando.
+For Daje Pinsa's grand opening, Gabriele wants to give you, his one of his first customers, his very **best.**
 
-If you want a lovely evening with your partner, the **Roman Date Night Bundle** is perfect for you: two signature pinsas and a dessert pinsa or Pinsa Sticks. Enough for two.
+So much so, he had to bat heads with his accountants for 3 weeks to get you something like this.
 
-You can have a taste of Rome, however is most convenient to you.
+So... Here's what he did for you:
 
-You can take the quick drive, and sit down at our restaurant, where we'll take you through exceptional Italian service...
+If you're looking for a romantic, savoury evening with your partner, the **Roman Date Night Bundle** is the perfect choice: [Bargain Deal (Ideally a lot for them to try, and grow customer satisfaction, without hurting profits.)]. Enough for two. At just [Bargain Price]
 
-Or, click the button below to view Gabriele's simple menu on your screen right now and order online, all from the same page.
+Or, if you want to dine like a true Italian family, or a friend's night out, the **Dinner By The Coliseo** will be your go-to: [Bargain Deal] to satisfy everybody, at just [Bargain Price]
 
-We'll prepare your Pinsas right away, so you can order even if you're 10 minutes away.
+But if you want to try it solo (no shame!), the **Taste Bundle** will give you everything you need: [Bargain Deal] to give you a taste of everything across the board, at just [Bargain Price]
+
+So go ahead and pick your best occasion.
+
+Once you've done that, you'll notice that Gabriele has made it as convenient as possible to order.
+
+If you'd like the full experience...
+
+You can take the quick drive and sit down at our restaurant, where we'll take you through exceptional Italian service.
+
+Or, click the button below to view Gabriele's savoury menu on your screen in seconds then order online, all from the same page.
+
+Gabriele and his team will prepare your Pinsas right away, so you can order even if you're 10 minutes away.
 
 As you walk in, they'll be waiting for you, warm and fresh so you can enjoy wherever you want.
 
 So, click the button below, pick the best-looking ones (they're all amazing!) and send us your order!
 
 **[View the Full Menu & Order Online →]**
+
+Daje Pinsa is at **Sandlake Station on South Orange Avenue** in SoDo / Belle Isle, Orlando.
 
 *Note: The 72-hour fermentation breaks down most of the gluten and starches, making pinsa lighter and easier to digest. But it contains wheat flour. Gluten-reduced, not gluten-free. Not safe for Celiac Disease.*
 
